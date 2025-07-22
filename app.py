@@ -14,6 +14,7 @@ redis_password = ""
 
 r = redis.StrictRedis(host=redis_host, port=redis_port, password=redis_password, decode_responses=True)
 
+
 senha_gerada_counter = Counter('senha_gerada', 'Contador de senhas geradas')
 
 
